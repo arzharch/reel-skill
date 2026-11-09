@@ -1,7 +1,7 @@
 {
   "name": "reel-skill",
   "version": "1.0.0",
-  "description": "Claude Code skill that turns raw footage into a postable Instagram reel",
+  "description": "Claude Code skill that turns raw video footage into a postable Instagram Reel: picks the best moments, writes the caption, renders with ffmpeg, and critiques its own cut before handing it back.",
   "type": "module",
   "bin": {
     "reel-skill": "install.mjs"
@@ -15,5 +15,28 @@
     "brand",
     "examples"
   ],
-  "license": "UNLICENSED"
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-skill",
+    "ai-agent-skill",
+    "instagram-reel",
+    "reel-maker",
+    "short-form-video",
+    "video-editing",
+    "ffmpeg",
+    "social-media-automation",
+    "content-creation",
+    "video-automation"
+  ],
+  "homepage": "https://github.com/arzharch/reel-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arzharch/reel-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arzharch/reel-skill/issues"
+  },
+  "author": "arzharch",
+  "license": "MIT"
 }

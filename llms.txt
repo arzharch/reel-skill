@@ -1,0 +1,21 @@
+# reel-skill
+
+> A Claude Code skill that turns raw video footage into a postable, vertical
+> (9:16) Instagram Reel: it picks the best moments from a folder of clips,
+> writes the on-screen copy and caption, renders the cut with ffmpeg, and
+> critiques its own result against a rubric before handing it back.
+
+Install with `npx reel-skill`, which copies the skill into
+`.claude/skills/reel/` in the current folder for use with Claude Code.
+
+Everything runs locally through ffmpeg. No footage, copy, or captions are
+uploaded to any third-party service by the skill itself, and it does not
+post to Instagram or any other platform.
+
+## Key files
+
+- [README.md](README.md): install instructions, how the pipeline works, FAQ
+- [SKILL.md](SKILL.md): the instructions Claude follows to run the skill
+- [PLAYBOOK.md](PLAYBOOK.md): reel formats and copy formulas
+- [RUBRIC.md](RUBRIC.md): the scoring criteria Claude reviews its own renders against
+- [examples/new-year-2027.json](examples/new-year-2027.json): a worked example of the edit schema
