@@ -5,8 +5,9 @@
 > writes the on-screen copy and caption, renders the cut with ffmpeg, and
 > critiques its own result against a rubric before handing it back.
 
-Install with `npx reel-skill`, which copies the skill into
-`.claude/skills/reel/` in the current folder for use with Claude Code.
+Install with `npx github:arzharch/reel-skill`, which copies the skill into
+`.claude/skills/reel/` in the current folder for use with Claude Code. No
+npm account is required.
 
 Everything runs locally through ffmpeg. No footage, copy, or captions are
 uploaded to any third-party service by the skill itself, and it does not

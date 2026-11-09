@@ -1,7 +1,6 @@
 # reel-skill
 
-[![npm version](https://img.shields.io/npm/v/reel-skill.svg)](https://www.npmjs.com/package/reel-skill)
-[![license](https://img.shields.io/npm/l/reel-skill.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/arzharch/reel-skill.svg)](LICENSE)
 
 A [Claude Code](https://claude.com/claude-code) skill that turns raw video
 footage into a postable, vertical (9:16) Instagram Reel. Point it at a
@@ -12,12 +11,12 @@ rubric and re-cuts before handing it back.
 ## Install
 
 ```
-npx reel-skill
+npx github:arzharch/reel-skill
 ```
 
-This copies the skill into `.claude/skills/reel/` in the current folder.
-Open that folder in Claude Code and ask it to make a reel from a footage
-folder.
+This copies the skill into `.claude/skills/reel/` in the current folder. No
+npm account needed. Open that folder in Claude Code and ask it to make a
+reel from a footage folder.
 
 ## How it works
 
