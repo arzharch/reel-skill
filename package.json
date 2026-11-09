@@ -1,0 +1,19 @@
+{
+  "name": "reel-skill",
+  "version": "1.0.0",
+  "description": "Claude Code skill that turns raw footage into a postable Instagram reel",
+  "type": "module",
+  "bin": {
+    "reel-skill": "install.mjs"
+  },
+  "files": [
+    "install.mjs",
+    "SKILL.md",
+    "PLAYBOOK.md",
+    "RUBRIC.md",
+    "scripts",
+    "brand",
+    "examples"
+  ],
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,10 @@
+{
+  "files": ["BodoniModa.ttf", "BodoniModa-Italic.ttf", "PinyonScript-Regular.ttf", "Jost.ttf"],
+  "label": "Jost.ttf",
+  "faces": {
+    "serif": { "family": "Bodoni Moda" },
+    "condensed": { "family": "Bodoni Moda", "scaleX": 82 },
+    "script": { "family": "Pinyon Script" },
+    "sans": { "family": "Jost" }
+  }
+}

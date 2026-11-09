@@ -1,0 +1,126 @@
+{
+  "name": "new-year-2027",
+  "format": "ad-sequence",
+  "grade": "golden-hour",
+  "music": {
+    "file": "public/audio/grand.mp3",
+    "start": 98
+  },
+  "text": [
+    {
+      "preset": "line",
+      "lines": [
+        "A New Year,|A New Year escape."
+      ],
+      "start": 0.2,
+      "end": 4.4
+    },
+    {
+      "preset": "line",
+      "lines": [
+        "More sunsets.|More slow mornings."
+      ],
+      "start": 4.75,
+      "end": 8.6
+    },
+    {
+      "preset": "line",
+      "lines": [
+        "More moments|worth remembering."
+      ],
+      "start": 8.95,
+      "end": 12.6
+    },
+    {
+      "preset": "line",
+      "lines": [
+        "Make 2027 a year|of beautiful stays."
+      ],
+      "start": 12.95,
+      "end": 16.6
+    },
+    {
+      "preset": "signoff",
+      "lines": [
+        "Welcome the New Year."
+      ],
+      "start": 17.6
+    }
+  ],
+  "endcard": {
+    "logo": "SKILL_DIR/brand/logo-white.png",
+    "start": 16.8,
+    "size": 260
+  },
+  "shots": [
+    {
+      "clip": "public/footage/villa-poolside-loungers.mp4",
+      "in": 0.3,
+      "dur": 2.4,
+      "speed": 0.6,
+      "push": 0.03,
+      "note": "foliage wipe hook"
+    },
+    {
+      "clip": "public/footage/couple-arrival.mp4",
+      "in": 7.3,
+      "dur": 2.2,
+      "speed": 0.7,
+      "push": 0.03,
+      "note": "the escape begins: door opens"
+    },
+    {
+      "clip": "public/footage/rooftop-sunset.mp4",
+      "in": 0.3,
+      "dur": 2.2,
+      "speed": 0.6,
+      "push": 0.035,
+      "note": "more sunsets"
+    },
+    {
+      "clip": "public/footage/morning-coffee-lifestyle.mp4",
+      "in": 8.4,
+      "dur": 2,
+      "speed": 0.6,
+      "push": 0.04,
+      "note": "more slow mornings"
+    },
+    {
+      "clip": "public/footage/poolside-breakfast-garden.mp4",
+      "in": 0.2,
+      "dur": 2,
+      "speed": 0.6,
+      "push": 0.04
+    },
+    {
+      "clip": "public/footage/model-bedroom-lifestyle.mp4",
+      "in": 0.8,
+      "dur": 2,
+      "speed": 0.7,
+      "push": 0.03
+    },
+    {
+      "clip": "public/footage/hallway-walkthrough.mp4",
+      "in": 4.5,
+      "dur": 2,
+      "speed": 0.7,
+      "push": 0.02
+    },
+    {
+      "clip": "public/footage/bedroom-pool-view.mp4",
+      "in": 0.3,
+      "dur": 2,
+      "speed": 0.7,
+      "push": 0.03
+    },
+    {
+      "clip": "public/footage/rooftop-sunset.mp4",
+      "in": 1.8,
+      "dur": 3.4,
+      "speed": 0.6,
+      "push": 0.04,
+      "note": "end card plays over the sunset"
+    }
+  ],
+  "_note": "Schema example. Clip and music paths refer to the original project; use absolute paths to the user's uploads."
+}
